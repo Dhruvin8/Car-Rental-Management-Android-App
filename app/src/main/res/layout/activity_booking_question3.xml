@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Q5a">
+
+    <EditText
+        android:id="@+id/etCustomerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Id"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/etRentalQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qty"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp" />
+
+
+    <EditText
+        android:id="@+id/etRentalType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rental type"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/erReturnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Return Date"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/btnPayNow"
+        android:background="#D8B4FE"
+        android:textColor="#581C87"
+        android:text="Pay now"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/btnPayLater"
+        android:background="#D8B4FE"
+        android:textColor="#581C87"
+        android:text="Pay later"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:textSize="16sp"
+        tools:text="Customer id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id" />
+    <TextView
+        android:textSize="16sp"
+        tools:text="Customer name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name" />
+    <TextView
+        android:textSize="16sp"
+        tools:text="Remaining balance "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remBal" />
+
+</LinearLayout>
